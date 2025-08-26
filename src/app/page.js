@@ -26,8 +26,14 @@ export default function Home() {
   }
 
   function calcularDespesas() {
+    if (!mes || !ano || !dia || !tipo || !descricao || !valor) {
+      alert("Todos os campos são obrigatórios.");
+      return;
+    }
+  
     const despesa = { mes, ano, dia, tipo, descricao, valor };
     gravarDespesa(despesa);
+  
     // Limpar campos
     setMes(""); setAno(""); setDia(""); setTipo(""); setDescricao(""); setValor("");
   }
