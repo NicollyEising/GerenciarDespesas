@@ -1,4 +1,4 @@
-# Registro de Despesas — README
+# Registro de Despesas
 
 ## Descrição
 
