@@ -6,8 +6,7 @@ Aplicação front-end simples em Next.js para registrar despesas no navegador. O
 
 ## Tecnologias
 
-* Next.js (App Router)
-* React (Client Component)
+* Next.js 
 * Tailwind CSS
 * Navegador com suporte a `localStorage`
 
@@ -26,13 +25,4 @@ Aplicação front-end simples em Next.js para registrar despesas no navegador. O
 
 * executar `npm run dev` ou `yarn dev`
 
-4. Abrir no navegador: `http://localhost:3000` (padrão Next.js)
-
-## Uso
-
-* Selecionar mês, ano, dia, tipo, preencher descrição e valor.
-* Clicar em "Adicionar" para inserir a despesa na tabela e armazenar em `localStorage`.
-* Clicar em "Remover" na linha desejada para excluir a despesa (a exclusão atualiza `localStorage`).
-
-
-Caso deseje, posso gerar uma versão do README em inglês, incluir exemplos de validação ou fornecer um modelo de contribuição mais detalhado.
+4. Abrir no navegador: `http://localhost:3000`
